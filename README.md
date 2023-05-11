@@ -1,6 +1,6 @@
 # Home_Sales
 
-I used PySpark to evaluate the following questions about home sales from https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.2/22-big-data/home_sales_revised.csv".  
+I used PySpark to evaluate the following questions about home sales from https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.2/22-big-data/home_sales_revised.csv.  
 
 - What is the average price for a four-bedroom house sold for each year? Round off your answer to two decimal places.  
 +----+---------+  

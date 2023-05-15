@@ -40,8 +40,33 @@ I used PySpark to evaluate the following questions about home sales from https:/
 |      2017|    280317.58|  
 +----------+-------------+  
 
-- What is the "view" rating for homes costing more than or equal to $350,000? Determine the run time for this query, and round off your answer to two decimal places.   
+- What is the "view" rating for homes costing more than or equal to $350,000? Determine the run time for this query, and round off your answer to two decimal places.  
++----+----------+
+|view| avg_price|
++----+----------+
+|  99|1061201.42|
+|  98|1053739.33|
+|  97|1129040.15|
+|  96|1017815.92|
+|  95| 1054325.6|
+|  94| 1033536.2|
+|  93|1026006.06|
+|  92| 970402.55|
+|  91|1137372.73|
+|  90|1062654.16|
+|  89|1107839.15|
+|  88|1031719.35|
+|  87| 1072285.2|
+|  86|1070444.25|
+|  85|1056336.74|
+|  84|1117233.13|
+|  83|1033965.93|
+|  82| 1063498.0|
+|  81|1053472.79|
+|  80| 991767.38|
++----+----------+
+only showing top 20 rows 
 
-Original: --- 0.03133654594421387 seconds ---  
-With temporary table cached: --- 0.028168678283691406 seconds ---  
-With data partitioned by date_built: --- 0.019553422927856445 seconds ---  
+Original: --- 1.0894153118133545 seconds ---
+With temporary table cached: --- 0.5463395118713379 seconds --- 
+With data partitioned by date_built: --- 0.49118638038635254 seconds ---  
